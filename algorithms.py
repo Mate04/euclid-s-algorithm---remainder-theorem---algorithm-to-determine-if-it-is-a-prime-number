@@ -35,10 +35,10 @@ def remainderTheorem(a:int,b:int):
         r = a - (c*b)
     print(f'el MCD({AuxA},{AuxB}) es {b}')
 
-def aPrimeNumber(num):
+def aPrimeNumber(num:int):
     k = int(math.sqrt(num))
     if num == 2:
-        return False
+        return True
     elif num % 2 == 0:
         return False
     while k != 1:
